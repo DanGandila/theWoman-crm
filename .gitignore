@@ -1,0 +1,34 @@
+# Build output
+/dist
+/build
+/backend/dist
+/frontend/dist
+*.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variable files
+.env
+.env.local
+*.env.local
+.env.development
+.env.test
+.env.production
+
+# temp directories
+.temp
+.tmp
+/tmp
+
+.DS_Store
+coverage/
+prisma/dev.db
